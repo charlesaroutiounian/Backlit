@@ -11,18 +11,14 @@
 		92BE730E1A66A84A00873681 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92BE730D1A66A84A00873681 /* main.m */; };
 		92BE73101A66A84A00873681 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92BE730F1A66A84A00873681 /* Images.xcassets */; };
 		92BE73131A66A84A00873681 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92BE73111A66A84A00873681 /* MainMenu.xib */; };
-		92BE731F1A66A84A00873681 /* BacklitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92BE731E1A66A84A00873681 /* BacklitTests.m */; };
+		92BE732F1A66ABC000873681 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92BE732E1A66ABC000873681 /* Cocoa.framework */; };
+		92BE73311A66ABC800873681 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92BE73301A66ABC800873681 /* IOKit.framework */; };
+		92BE73341A66C03600873681 /* brightness.png in Resources */ = {isa = PBXBuildFile; fileRef = 92BE73321A66C03600873681 /* brightness.png */; };
+		92BE73351A66C03600873681 /* brightness@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92BE73331A66C03600873681 /* brightness@2x.png */; };
+		92BE73371A67013000873681 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 92BE73361A67013000873681 /* icon.icns */; };
+		92BE73391A67015800873681 /* Script.sdef in Resources */ = {isa = PBXBuildFile; fileRef = 92BE73381A67015800873681 /* Script.sdef */; };
+		92BE733D1A6704A000873681 /* BrightnessCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 92BE733B1A6704A000873681 /* BrightnessCommand.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		92BE73191A66A84A00873681 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 92BE72FD1A66A84A00873681 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 92BE73041A66A84A00873681;
-			remoteInfo = Backlit;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		92BE73051A66A84A00873681 /* Backlit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Backlit.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -32,9 +28,15 @@
 		92BE730D1A66A84A00873681 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		92BE730F1A66A84A00873681 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		92BE73121A66A84A00873681 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		92BE73181A66A84A00873681 /* BacklitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BacklitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		92BE731D1A66A84A00873681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		92BE731E1A66A84A00873681 /* BacklitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BacklitTests.m; sourceTree = "<group>"; };
+		92BE732E1A66ABC000873681 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		92BE73301A66ABC800873681 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		92BE73321A66C03600873681 /* brightness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brightness.png; sourceTree = "<group>"; };
+		92BE73331A66C03600873681 /* brightness@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brightness@2x.png"; sourceTree = "<group>"; };
+		92BE73361A67013000873681 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		92BE73381A67015800873681 /* Script.sdef */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Script.sdef; sourceTree = "<group>"; };
+		92BE733A1A6704A000873681 /* BrightnessCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrightnessCommand.h; sourceTree = "<group>"; };
+		92BE733B1A6704A000873681 /* BrightnessCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrightnessCommand.m; sourceTree = "<group>"; };
+		92BE733C1A6704A000873681 /* scriptLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scriptLog.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,13 +44,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		92BE73151A66A84A00873681 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				92BE73311A66ABC800873681 /* IOKit.framework in Frameworks */,
+				92BE732F1A66ABC000873681 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +56,6 @@
 			isa = PBXGroup;
 			children = (
 				92BE73071A66A84A00873681 /* Backlit */,
-				92BE731B1A66A84A00873681 /* BacklitTests */,
 				92BE73061A66A84A00873681 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,7 +64,6 @@
 			isa = PBXGroup;
 			children = (
 				92BE73051A66A84A00873681 /* Backlit.app */,
-				92BE73181A66A84A00873681 /* BacklitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,8 +71,15 @@
 		92BE73071A66A84A00873681 /* Backlit */ = {
 			isa = PBXGroup;
 			children = (
+				92BE73381A67015800873681 /* Script.sdef */,
+				92BE73361A67013000873681 /* icon.icns */,
 				92BE730A1A66A84A00873681 /* AppDelegate.h */,
 				92BE730B1A66A84A00873681 /* AppDelegate.m */,
+				92BE73321A66C03600873681 /* brightness.png */,
+				92BE73331A66C03600873681 /* brightness@2x.png */,
+				92BE733A1A6704A000873681 /* BrightnessCommand.h */,
+				92BE733B1A6704A000873681 /* BrightnessCommand.m */,
+				92BE733C1A6704A000873681 /* scriptLog.h */,
 				92BE730F1A66A84A00873681 /* Images.xcassets */,
 				92BE73111A66A84A00873681 /* MainMenu.xib */,
 				92BE73081A66A84A00873681 /* Supporting Files */,
@@ -88,25 +90,10 @@
 		92BE73081A66A84A00873681 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				92BE73301A66ABC800873681 /* IOKit.framework */,
+				92BE732E1A66ABC000873681 /* Cocoa.framework */,
 				92BE73091A66A84A00873681 /* Info.plist */,
 				92BE730D1A66A84A00873681 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		92BE731B1A66A84A00873681 /* BacklitTests */ = {
-			isa = PBXGroup;
-			children = (
-				92BE731E1A66A84A00873681 /* BacklitTests.m */,
-				92BE731C1A66A84A00873681 /* Supporting Files */,
-			);
-			path = BacklitTests;
-			sourceTree = "<group>";
-		};
-		92BE731C1A66A84A00873681 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				92BE731D1A66A84A00873681 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -131,24 +118,6 @@
 			productReference = 92BE73051A66A84A00873681 /* Backlit.app */;
 			productType = "com.apple.product-type.application";
 		};
-		92BE73171A66A84A00873681 /* BacklitTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 92BE73251A66A84A00873681 /* Build configuration list for PBXNativeTarget "BacklitTests" */;
-			buildPhases = (
-				92BE73141A66A84A00873681 /* Sources */,
-				92BE73151A66A84A00873681 /* Frameworks */,
-				92BE73161A66A84A00873681 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				92BE731A1A66A84A00873681 /* PBXTargetDependency */,
-			);
-			name = BacklitTests;
-			productName = BacklitTests;
-			productReference = 92BE73181A66A84A00873681 /* BacklitTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -160,10 +129,6 @@
 				TargetAttributes = {
 					92BE73041A66A84A00873681 = {
 						CreatedOnToolsVersion = 6.1;
-					};
-					92BE73171A66A84A00873681 = {
-						CreatedOnToolsVersion = 6.1;
-						TestTargetID = 92BE73041A66A84A00873681;
 					};
 				};
 			};
@@ -181,7 +146,6 @@
 			projectRoot = "";
 			targets = (
 				92BE73041A66A84A00873681 /* Backlit */,
-				92BE73171A66A84A00873681 /* BacklitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -191,15 +155,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92BE73391A67015800873681 /* Script.sdef in Resources */,
+				92BE73371A67013000873681 /* icon.icns in Resources */,
+				92BE73341A66C03600873681 /* brightness.png in Resources */,
 				92BE73101A66A84A00873681 /* Images.xcassets in Resources */,
+				92BE73351A66C03600873681 /* brightness@2x.png in Resources */,
 				92BE73131A66A84A00873681 /* MainMenu.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		92BE73161A66A84A00873681 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,27 +172,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				92BE730E1A66A84A00873681 /* main.m in Sources */,
+				92BE733D1A6704A000873681 /* BrightnessCommand.m in Sources */,
 				92BE730C1A66A84A00873681 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92BE73141A66A84A00873681 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				92BE731F1A66A84A00873681 /* BacklitTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		92BE731A1A66A84A00873681 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 92BE73041A66A84A00873681 /* Backlit */;
-			targetProxy = 92BE73191A66A84A00873681 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		92BE73111A66A84A00873681 /* MainMenu.xib */ = {
@@ -343,42 +289,6 @@
 			};
 			name = Release;
 		};
-		92BE73261A66A84A00873681 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = BacklitTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Backlit.app/Contents/MacOS/Backlit";
-			};
-			name = Debug;
-		};
-		92BE73271A66A84A00873681 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = BacklitTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Backlit.app/Contents/MacOS/Backlit";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -398,14 +308,7 @@
 				92BE73241A66A84A00873681 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		92BE73251A66A84A00873681 /* Build configuration list for PBXNativeTarget "BacklitTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				92BE73261A66A84A00873681 /* Debug */,
-				92BE73271A66A84A00873681 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
