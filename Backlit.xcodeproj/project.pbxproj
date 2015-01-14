@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92BE730C1A66A84A00873681 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92BE730B1A66A84A00873681 /* AppDelegate.m */; };
+		92BE730E1A66A84A00873681 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92BE730D1A66A84A00873681 /* main.m */; };
+		92BE73101A66A84A00873681 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92BE730F1A66A84A00873681 /* Images.xcassets */; };
+		92BE73131A66A84A00873681 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92BE73111A66A84A00873681 /* MainMenu.xib */; };
+		92BE731F1A66A84A00873681 /* BacklitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92BE731E1A66A84A00873681 /* BacklitTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92BE73191A66A84A00873681 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92BE72FD1A66A84A00873681 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92BE73041A66A84A00873681;
+			remoteInfo = Backlit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92BE73051A66A84A00873681 /* Backlit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Backlit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92BE73091A66A84A00873681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92BE730A1A66A84A00873681 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		92BE730B1A66A84A00873681 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		92BE730D1A66A84A00873681 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92BE730F1A66A84A00873681 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		92BE73121A66A84A00873681 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		92BE73181A66A84A00873681 /* BacklitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BacklitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92BE731D1A66A84A00873681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92BE731E1A66A84A00873681 /* BacklitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BacklitTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92BE73021A66A84A00873681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92BE73151A66A84A00873681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92BE72FC1A66A84A00873681 = {
+			isa = PBXGroup;
+			children = (
+				92BE73071A66A84A00873681 /* Backlit */,
+				92BE731B1A66A84A00873681 /* BacklitTests */,
+				92BE73061A66A84A00873681 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92BE73061A66A84A00873681 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92BE73051A66A84A00873681 /* Backlit.app */,
+				92BE73181A66A84A00873681 /* BacklitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92BE73071A66A84A00873681 /* Backlit */ = {
+			isa = PBXGroup;
+			children = (
+				92BE730A1A66A84A00873681 /* AppDelegate.h */,
+				92BE730B1A66A84A00873681 /* AppDelegate.m */,
+				92BE730F1A66A84A00873681 /* Images.xcassets */,
+				92BE73111A66A84A00873681 /* MainMenu.xib */,
+				92BE73081A66A84A00873681 /* Supporting Files */,
+			);
+			path = Backlit;
+			sourceTree = "<group>";
+		};
+		92BE73081A66A84A00873681 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92BE73091A66A84A00873681 /* Info.plist */,
+				92BE730D1A66A84A00873681 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92BE731B1A66A84A00873681 /* BacklitTests */ = {
+			isa = PBXGroup;
+			children = (
+				92BE731E1A66A84A00873681 /* BacklitTests.m */,
+				92BE731C1A66A84A00873681 /* Supporting Files */,
+			);
+			path = BacklitTests;
+			sourceTree = "<group>";
+		};
+		92BE731C1A66A84A00873681 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92BE731D1A66A84A00873681 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92BE73041A66A84A00873681 /* Backlit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92BE73221A66A84A00873681 /* Build configuration list for PBXNativeTarget "Backlit" */;
+			buildPhases = (
+				92BE73011A66A84A00873681 /* Sources */,
+				92BE73021A66A84A00873681 /* Frameworks */,
+				92BE73031A66A84A00873681 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Backlit;
+			productName = Backlit;
+			productReference = 92BE73051A66A84A00873681 /* Backlit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92BE73171A66A84A00873681 /* BacklitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92BE73251A66A84A00873681 /* Build configuration list for PBXNativeTarget "BacklitTests" */;
+			buildPhases = (
+				92BE73141A66A84A00873681 /* Sources */,
+				92BE73151A66A84A00873681 /* Frameworks */,
+				92BE73161A66A84A00873681 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92BE731A1A66A84A00873681 /* PBXTargetDependency */,
+			);
+			name = BacklitTests;
+			productName = BacklitTests;
+			productReference = 92BE73181A66A84A00873681 /* BacklitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92BE72FD1A66A84A00873681 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Charles Aroutiounian";
+				TargetAttributes = {
+					92BE73041A66A84A00873681 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					92BE73171A66A84A00873681 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 92BE73041A66A84A00873681;
+					};
+				};
+			};
+			buildConfigurationList = 92BE73001A66A84A00873681 /* Build configuration list for PBXProject "Backlit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92BE72FC1A66A84A00873681;
+			productRefGroup = 92BE73061A66A84A00873681 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92BE73041A66A84A00873681 /* Backlit */,
+				92BE73171A66A84A00873681 /* BacklitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92BE73031A66A84A00873681 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92BE73101A66A84A00873681 /* Images.xcassets in Resources */,
+				92BE73131A66A84A00873681 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92BE73161A66A84A00873681 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92BE73011A66A84A00873681 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92BE730E1A66A84A00873681 /* main.m in Sources */,
+				92BE730C1A66A84A00873681 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92BE73141A66A84A00873681 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92BE731F1A66A84A00873681 /* BacklitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92BE731A1A66A84A00873681 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92BE73041A66A84A00873681 /* Backlit */;
+			targetProxy = 92BE73191A66A84A00873681 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92BE73111A66A84A00873681 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92BE73121A66A84A00873681 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92BE73201A66A84A00873681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		92BE73211A66A84A00873681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		92BE73231A66A84A00873681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Backlit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		92BE73241A66A84A00873681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Backlit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		92BE73261A66A84A00873681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BacklitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Backlit.app/Contents/MacOS/Backlit";
+			};
+			name = Debug;
+		};
+		92BE73271A66A84A00873681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BacklitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Backlit.app/Contents/MacOS/Backlit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92BE73001A66A84A00873681 /* Build configuration list for PBXProject "Backlit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92BE73201A66A84A00873681 /* Debug */,
+				92BE73211A66A84A00873681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92BE73221A66A84A00873681 /* Build configuration list for PBXNativeTarget "Backlit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92BE73231A66A84A00873681 /* Debug */,
+				92BE73241A66A84A00873681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		92BE73251A66A84A00873681 /* Build configuration list for PBXNativeTarget "BacklitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92BE73261A66A84A00873681 /* Debug */,
+				92BE73271A66A84A00873681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92BE72FD1A66A84A00873681 /* Project object */;
+}
